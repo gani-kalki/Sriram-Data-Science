@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#f5f4ee" />
+  <meta name="description" content="Mohan Babu University Data Science Learning Portal for Sriram." />
+  <title>MBU · Data Science Learning Portal</title>
+  <link rel="stylesheet" href="./src/styles.css" />
+  <link rel="stylesheet" href="./src/tweaks.css" />
+</head>
+
+<body>
+  <div class="ambient-grid" aria-hidden="true"><span></span><span></span><span></span><span></span><span></span></div>
+  <header class="topbar">
+    <a class="brand" href="#/"><span class="brand-icon">M</span><span><b>MOHAN BABU UNIVERSITY</b><small>DATA SCIENCE
+          LEARNING PORTAL</small></span></a>
+    <button class="menu-toggle" aria-label="Open navigation">☰</button>
+    <nav id="navigation"><a href="#/">HOME</a><a href="#/modules">MODULES</a><a href="#/experiments">EXPERIMENTS</a><a
+        href="#/tools">TOOLS</a></nav>
+    <div class="top-tools"><button id="theme-toggle" class="icon-btn" aria-label="Toggle theme">◐</button><span
+        class="top-avatar">S</span></div>
+  </header>
+  <div id="app" class="app"></div>
+  <footer class="footer"><a class="brand footer-brand" href="#/"><span class="brand-icon">M</span><span><b>MOHAN BABU
+          UNIVERSITY</b><small>Data Science Learning Portal</small></span></a>
+    <nav><a href="#/">Home</a><a href="#/modules">Modules</a><a href="#/experiments">Experiments</a><a
+        href="#/tools">Tools</a></nav><span>© 2026 Mohan Babu University</span>
+  </footer>
+  <div id="modal-root"></div>
+  <script type="module" src="./src/app.js"></script>
+</body>
+
+</html>
